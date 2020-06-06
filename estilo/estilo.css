@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body {
+    /*background: url("../imagens/background/background.jpg") no-repeat;*/
+    background-color: rgb(37, 35, 35);
+    background-size: 100% 100%;
+}
+
+body header{
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+    margin-top: 5%;
+    background-color: rgba(182, 166, 166, 0.8);
+    
+}
+
+img{
+    margin-left: 15px;
+}
+
+section {
+    padding-top: 30px;
+}
+
+div.dialog p{
+    display: inline-block;
+
+}
+
+
+div#infos-table {
+    width: 100%;
+    /*background-color: #0095CC;*/
+    background-color: darkgray;
+    box-shadow: 0px 0px 10px black;
+}
+
+table#infos-table {
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+}
+
+table#infos-table td {
+    display: table-cell;
+    vertical-align: inherit;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	padding-left : 50px;
+	padding-right: 50px;
+}
+
+table#infos-table p {
+    color: rgba(0, 0, 0, 0.8);
+	font-size: 13pt;
+	text-shadow: none;
+	padding: 1px 2px 1px 2px;
+	margin: 3px 10px 3px 10px;
+	
+}
+
+ol{
+    list-style: disc;
+}
+
+a#player{
+    color: blue;
+    font-weight: bolder;
+    font-size: 13pt;
+}
+
+a#npc{
+    color: rgb(153, 1, 1);
+    font-weight: bolder;
+    font-size: 13pt;
+}
